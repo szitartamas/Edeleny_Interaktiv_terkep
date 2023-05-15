@@ -4,12 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Edelény interaktív térképe</title>
-    <link rel="stylesheet" href="./style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Open+Sans:wght@300;600;700;800&family=Poppins:wght@100;200&display=swap"
         rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -18,27 +21,39 @@
             <h1 class="welcome">Üdvözöllek az oldalamon!</h1>
             <img class="profil" src="./283525913_5166577820093978_197765414674897492_n.jpg" alt="profil">
             <h4 class="intro">A nevem Szitár Tamás, végzős hallgató vagyok Miskolci Egyetem Műszaki Föld- és
-                Környezettudományi Karán</h4>
+                Környezettudományi Karán. Ez a weboldal a szakdolgozatomhoz készült, melynek témája szülővárosom Edelény
+                és interaktív
+                térképe.</h4>
             <hr>
-            <p class="function">Ez a weboldal a szakdolgozatomhoz készült, melynek témája szülővárosom Edelény és interaktív
-                térképe. <br> A térkép fő funkciója a turisták, a városba látogatók és az átutazók tájékoztatása
+            <div>
+                <h3>A térkép megtekintéséért kattints: </h3>
+                <br>
+
+            </div>
+            
+            <div class="buttondiv">
+                <a href="./map.html" class="button btn btn-outline-secondary" type="submit">Interaktív térkép</a>
+    
+            </div>
+            <br>
+           
+            <p class="function"> A térkép fő funkciója a turisták, a városba látogatók és az átutazók tájékoztatása
                 elsősorban Edelény nevezetességeiről, főbb látványosságairól, étterem és
                 szállás lehetőségeiről. Hasznosnak tartottam megjeleníteni a város legfőbb intézményeit is. Így
-                térképemen helyet kaptak az egészségügyi és más fontosabb intézmények, posták, bankok, ATM-ek, és mindazok
+                térképemen helyet kaptak az egészségügyi és más fontosabb intézmények, posták, bankok, ATM-ek, és
+                mindazok
                 a helyek, melyekre szüksége lehet a városunkba érkezőknek is. </p>
             <hr>
         </div>
+        
 
-        <div class="map">
-           <iframe  class="maps" src="https://www.google.com/maps/d/u/0/embed?mid=1UVMrJYqkj2kgemImV5iR-eFkBo0uYhM&ehbc=2E312F" ></iframe> 
-        </div>
 
         <div class="footer">
-            
+
             <p>© Szitár Tamás</p>
         </div>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 
 </html>
